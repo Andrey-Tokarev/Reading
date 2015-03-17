@@ -1,0 +1,9 @@
+application: reading-test
+version: 0-5-reading
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /.*
+  script: reading.application
